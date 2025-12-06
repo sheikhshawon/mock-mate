@@ -110,6 +110,9 @@
                     <li>
                         <a href="{{ url('/about') }}" class="{{ request()->is('about') ? 'active' : '' }}">ABOUT</a>
                     </li>
+                    <li>
+                        <a href="{{ url('/contact') }}" class="{{ request()->is('contact') ? 'active' : '' }}">CONTACT</a>
+                    </li>
                 </ul>
             </div>
 
@@ -125,5 +128,3 @@
 
 
 </nav>
-
-<hr>
